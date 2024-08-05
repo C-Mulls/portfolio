@@ -52,7 +52,187 @@
         <!-- this is the end of the navbar -->
         
 
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Todo: Update the title with your name -->
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section 1: Header -->
+    <!-- TODO: Create a header section with your name and a tagline -->
+    <header>
+        <!-- Task 1: Header Content -->
+        <!-- TODO: Add your full name (h1) with a class "name" -->
+        <!-- TODO: Add a tagline or a brief description (p) with a class "tagline" -->
+        <h1 class="name">Connor Mullins</h1>
+        <p class="tagline">Software Engineering Student</p>
+
+        <!-- Example: <h1 class="name">John Doe</h1> -->
+        <!-- Example: <p class="tagline">Web Developer</p> -->
+
+
+        <!-- Your code here for Exercise 1 (below this line) -->
+
+
+
+    </header>
+
+
+    <!-- Section 2: About Me -->
+    <section id="about">
+        <!-- TODO: Add a heading (h2) for the "About Me" section -->
+        <!-- TODO: Write a paragraph (p) introducing yourself, your interests, and your goals -->
+        <!-- Hints: Utilize the provided <p> element for the text content -->
+            <h2>About Me</h2>
+                <p>Welcome to my portfolio, I passionate about being a student. Something tells me thats a good thing as there is much to learn about web design and it seems as though this is a path of a life long student.</p>
+            
+
+        <!-- Example: <p>Welcome to my portfolio! I am a passionate web developer...</p> -->
+
+        <!-- Your code here for Exercise 2 (below this line) -->
+
+
+
+
+    </section>
+
+
+    <!-- Section 3: Skills -->
+    <section id="skills">
+        <!-- Task 3: Skills List -->
+        <!-- TODO: Add a heading (h2) for the "Skills" section -->
+        <!-- TODO: Create an unordered list (ul) with your top skills using <li> elements -->
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+        <!-- Example: <ul> -->
+        <!-- Example:   <li>JavaScript</li> -->
+        <!-- Example:   <li>React</li> -->
+        <!-- Example:   <li>Node.js</li> -->
+        <!-- Example: </ul> -->
         
+        <!-- TODO: Add at least 3 skills below -->
+
+        <!-- Your code here for Exercise 3 (below this line) -->
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <!-- Section 4: Projects -->
+    <!-- TODO: Create a "Projects" section -->
+    <section id="projects">
+        <!-- TODO: Add a heading (h2) for the "Projects" section -->
+        <h2>Projects</h2>
+         <!-- TODO: Example Project Card -->
+        <div class="project-card">
+            <!-- Project name (h3) -->
+            <h3>Portfolio Site</h3>
+            <!-- Project description (p) -->
+            <p>This is a sample project showcasing my skills in web development.</p>
+            <!-- Link to the project (a) -->
+            <a href="#" target="_blank">View Project</a>
+        </div>
+        
+         <!-- TODO: Add two more project card with details of your projects -->
+        
+        <!-- Hints: Duplicate the existing project card code and modify the content accordingly -->
+        <!-- Example: <div class="project-card">...</div> -->
+        
+        <!-- TODO: Add you project cards below -->
+
+
+
+        <!-- Your code here for Exercise 4 (below this line) -->
+
+
+
+
+
+
+    </section>
+
+
+    <!-- Section 5: Contact -->
+    <section id="contact">
+        <!-- Task 5: Contact Form -->
+        <!-- Your code here for Exercise 5 (below this line) -->
+        <h2>Contact</h2>
+        <p>Connormullins96@yahoo.com</p>
+
+
+        <!-- TODO: Add a heading (h2) for the "Contact" section -->
+
+        <!-- TODO: Provide your email address (p) -->
+
+        
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="input-field" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="input-field" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" class="input-field" rows="4" required></textarea>
+
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+
+
+    <!-- Section 6: Footer -->
+    <footer>
+        <!-- Your code here for Exercise 6 (below this line) -->
+        <p>© 2024 Connor Mullins. All rights reserved.</p>
+        
+        <!-- TODO: Add footer data with (p) tag. -->
+        <!-- Example: <p>&copy; 2024 Your Name. All rights reserved.</p> -->
+
+
+    </footer>
+
+    <!-- Do not make a change to this -->
+    <script>
+         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
         
 
       
